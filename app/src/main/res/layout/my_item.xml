@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/home_team_pic"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viking" />
+
+    <TextView
+        android:id="@+id/home_team_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/home_team_pic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/away_team_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Away"
+        android:textAllCaps="true"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/away_team_pic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/away_team_pic"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/viking" />
+
+    <TextView
+        android:id="@+id/TextView_gameSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="5dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="A very long line summarizing the final score of the game. It will likely take multiple lines depending on screen width"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextDate"
+        android:layout_width="97dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="5dp"
+        android:singleLine="false"
+        android:text="the date"
+        android:textSize="8sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_score_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:maxLines="2"
+        android:minLines="1"
+        android:text="12"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/home_team_text"
+        app:layout_constraintStart_toStartOf="@+id/home_team_text"
+        app:layout_constraintTop_toBottomOf="@+id/home_team_text" />
+
+    <TextView
+        android:id="@+id/away_score_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="11"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/away_team_text"
+        app:layout_constraintStart_toStartOf="@+id/away_team_text"
+        app:layout_constraintTop_toBottomOf="@+id/away_team_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

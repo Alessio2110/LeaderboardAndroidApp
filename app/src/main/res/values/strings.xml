@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Floorball Scores</string>
+    <string name="tab_page1">Match Date</string>
+    <string name="tab_page2">Game details</string>
+    <string name="tab_page3">Floorball games</string>
+    <string name="TextView_Frag1">Text for Fragment 1</string>
+
+    <string-array name="italian_home_teams">
+        <item>Select Home Team 🇮🇹</item>
+        <item>Black Lions</item>
+        <item>Bolzano</item>
+        <item>Milano Molotov</item>
+        <item>Sesto</item>
+        <item>Spartak Milano</item>
+        <item>Sterzing Gargazon</item>
+        <item>Viking Roma FC</item>
+        <item>Wild Boars Varese</item>
+    </string-array>
+
+    <string-array name="italian_away_teams">
+        <item>Select Away Team 🇮🇹</item>
+        <item>Black Lions</item>
+        <item>Bolzano</item>
+        <item>Milano Molotov</item>
+        <item>Sesto</item>
+        <item>Spartak Milano</item>
+        <item>Sterzing Gargazon</item>
+        <item>Viking Roma FC</item>
+        <item>Wild Boars Varese</item>
+    </string-array>
+
+    <string-array name="scottish_home_teams">
+        <item>Select Home Team 🏴󠁧󠁢󠁳󠁣󠁴󠁿</item>
+        <item>Aberdeen Oilers</item>
+        <item>Aberdeen University</item>
+        <item>Edinburgh Unicorns</item>
+        <item>Fife Lightning</item>
+        <item>Hawick Hawks</item>
+    </string-array>
+    <string-array name="scottish_away_teams">
+        <item>Select Away Team 🏴󠁧󠁢󠁳󠁣󠁴󠁿</item>
+        <item>Aberdeen Oilers</item>
+        <item>Aberdeen University</item>
+        <item>Edinburgh Unicorns</item>
+        <item>Fife Lightning</item>
+        <item>Hawick Hawks</item>
+    </string-array>
+    <string-array name="sorting">
+        <item>Sort by: Most Recent</item>
+        <item>Sort by: Least Recent</item>
+        <item>Sort by: Highest score difference</item>
+        <item>Sort by: Lowest score difference</item>
+    </string-array>
+    <string-array name="filtering">
+        <item>All leagues</item>
+        <item>Scottish League 🏴󠁧󠁢󠁳󠁣󠁴󠁿</item>
+        <item>Italian League 🇮🇹</item>
+    </string-array>
+    <string-array name="italian_teams">
+        <item>All teams</item>
+        <item>Black Lions</item>
+        <item>Bolzano</item>
+        <item>Milano Molotov</item>
+        <item>Sesto</item>
+        <item>Spartak Milano</item>
+        <item>Sterzing Gargazon</item>
+        <item>Viking Roma FC</item>
+        <item>Wild Boars Varese</item>
+    </string-array>
+    <string-array name="scottish_teams">
+        <item>All teams 󠁧󠁢󠁳󠁣󠁴󠁿</item>
+        <item>Aberdeen Oilers</item>
+        <item>Aberdeen University</item>
+        <item>Edinburgh Unicorns</item>
+        <item>Fife Lightning</item>
+        <item>Hawick Hawks</item>
+    </string-array>
+
+</resources>
